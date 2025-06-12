@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="24" height="16" tilewidth="64" tileheight="64" infinite="0" nextlayerid="12" nextobjectid="47">
+ <tileset firstgid="1" source="../tilesets/items.tsx"/>
+ <tileset firstgid="226" source="../tilesets/enemy.tsx"/>
+ <tileset firstgid="326" source="../tilesets/tile-1.tsx"/>
+ <imagelayer id="4" name="Background">
+  <image source="../images/level/background_2.png" width="1536" height="1024"/>
+ </imagelayer>
+ <layer id="10" name="Ground" width="24" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+333,331,331,332,331,331,332,332,331,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,332,332,332,332,331,333,334,335,332,332,332,332,331,331,333,
+333,331,331,332,332,332,332,331,333,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="Obstacle" width="24" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+336,0,0,0,0,0,0,0,331,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,341,
+341,0,0,0,0,0,0,0,0,0,0,0,0,0,331,0,0,0,0,0,0,0,0,341,
+341,0,0,0,0,0,0,0,0,0,0,0,0,0,331,0,0,0,0,0,0,0,0,341,
+341,0,0,0,0,0,0,0,3221225820,0,0,0,0,0,331,0,0,0,0,0,0,0,0,341,
+341,0,0,0,0,0,0,0,3221225815,0,0,0,0,0,331,0,0,0,0,0,0,0,0,346,
+346,0,0,0,0,0,0,0,3221225810,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="Decoration" width="24" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+337,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+342,0,0,0,0,0,0,0,328,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,344,345,0,0,0,0,0,0,0,0,0,0,0,0,329,330,0,0,0,0,0,0,0,
+0,349,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Enemies" visible="0">
+  <object id="8" name="enemy_3" type="enemy_spawn" gid="226" x="994" y="560" width="96" height="96">
+   <properties>
+    <property name="enemy_type" type="int" value="1"/>
+    <property name="speed" type="int" value="80"/>
+   </properties>
+  </object>
+  <object id="12" name="enemy_2" type="enemy_spawn" gid="236" x="190" y="384" width="96" height="96">
+   <properties>
+    <property name="enemy_type" type="int" value="0"/>
+    <property name="speed" type="int" value="120"/>
+   </properties>
+  </object>
+  <object id="16" name="enemy_1" type="enemy_spawn" gid="236" x="994" y="832" width="96" height="96">
+   <properties>
+    <property name="enemy_type" type="int" value="0"/>
+    <property name="speed" type="int" value="120"/>
+   </properties>
+  </object>
+  <object id="23" name="enemy_1_start" type="waypoint" x="994" y="832">
+   <point/>
+  </object>
+  <object id="24" name="enemy_1_end" type="waypoint" x="1380" y="832">
+   <point/>
+  </object>
+  <object id="25" name="enemy_2_start" type="waypoint" x="40" y="384">
+   <point/>
+  </object>
+  <object id="26" name="enemy_2_end" type="waypoint" x="490" y="384">
+   <point/>
+  </object>
+  <object id="28" name="enemy_3_start" type="waypoint" x="994" y="560">
+   <point/>
+  </object>
+  <object id="30" name="enemy_3_end" type="waypoint" x="1380" y="560">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Player" visible="0">
+  <object id="22" name="player" type="player_spawn" x="610" y="650">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Doors" visible="0">
+  <object id="3" name="portal" type="portal" x="100" y="810" width="59.8944" height="86.6893"/>
+ </objectgroup>
+ <objectgroup id="6" name="Items" visible="0">
+  <object id="40" name="gem_1" type="gem" gid="1" x="383.253" y="658.919" width="64" height="64"/>
+  <object id="42" name="gem_2" type="gem" gid="1" x="897.068" y="479.568" width="64" height="64"/>
+  <object id="43" name="gem_3" type="gem" gid="1" x="1407.65" y="675.076" width="64" height="64"/>
+ </objectgroup>
+</map>

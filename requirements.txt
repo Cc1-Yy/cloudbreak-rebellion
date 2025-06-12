@@ -1,0 +1,4 @@
+pygame~=2.6.0
+cairosvg~=2.8.2
+pytmx~=3.32
+pillow~=11.1.0

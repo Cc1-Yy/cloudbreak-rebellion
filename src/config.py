@@ -1,0 +1,1 @@
+TOTAL_LEVELS = 5
