@@ -1,3 +1,5 @@
+
+
 import pygame
 from src.state.base_state import GameState
 
@@ -14,6 +16,8 @@ class MainMenuState(GameState):
 
         gloopie_raw = pygame.image.load("assets/images/main_menu/gloopie.png").convert_alpha()
         target_w = int(self.screen_width * 0.30)
+
+
         target_h = 0.28 * self.screen_height
         self.gloopie_image = pygame.transform.smoothscale(gloopie_raw, (target_w, target_h))
         self.gloopie_rect = self.gloopie_image.get_rect()
@@ -24,7 +28,7 @@ class MainMenuState(GameState):
         title_w = int(self.screen_width * 0.63)
         title_h = int(self.screen_height * 0.25)
         self.title_image = pygame.transform.smoothscale(title_raw, (title_w, title_h))
-        # 位置：x = 0.17*width, y = 0.30*height
+
         title_x = int(self.screen_width * 0.17)
         title_y = int(self.screen_height * 0.30)
         self.title_rect = pygame.Rect(title_x, title_y, title_w, title_h)
@@ -93,8 +97,11 @@ class MainMenuState(GameState):
         self.setting_hover = self.instructions_button_rect.collidepoint((mx, my))
 
     def draw(self, screen):
+
         screen.blit(self.background, (0, 0))
+
         screen.blit(self.gloopie_image, self.gloopie_rect)
+
         screen.blit(self.title_image, self.title_rect)
 
         if self.start_hover:
