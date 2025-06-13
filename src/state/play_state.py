@@ -1,13 +1,13 @@
 import os
 import pygame
-from .base_state import GameState
+from src.state.base_state import GameState
 from src.level.level_manager import LevelManager
 from src.entities.player import Player
 from src.entities.enemy import Enemy, load_gif_frames
 from src.entities.gem import Gem
 from src.entities.box import Box
 from src.persistence import SaveManager
-from ..config import TOTAL_LEVELS
+from src.config import TOTAL_LEVELS
 
 
 class PlayState(GameState):

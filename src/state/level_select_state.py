@@ -1,8 +1,8 @@
 import os
 import pygame
-from .base_state import GameState
+from src.state.base_state import GameState
 from src.persistence import SaveManager
-from ..config import TOTAL_LEVELS
+from src.config import TOTAL_LEVELS
 
 
 class LevelSelectState(GameState):

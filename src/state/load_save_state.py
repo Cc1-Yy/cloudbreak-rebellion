@@ -4,7 +4,7 @@ import json
 import time
 import hashlib
 import base64
-from .base_state import GameState
+from src.state.base_state import GameState
 from src.persistence import SaveManager
 
 

@@ -1,6 +1,6 @@
 import os
 import pygame
-from .base_state import GameState
+from src.state.base_state import GameState
 
 
 class GameOverState(GameState):

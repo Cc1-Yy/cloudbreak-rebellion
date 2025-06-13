@@ -1,5 +1,5 @@
 import pygame
-from .base_state import GameState
+from src.state.base_state import GameState
 
 
 class PauseState(GameState):
